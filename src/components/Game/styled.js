@@ -6,7 +6,7 @@ export default withTheme()(styled.div`
 
   .Container {
     margin: 16px auto;
-    max-width: 560px;
+    max-width: 800px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -19,5 +19,40 @@ export default withTheme()(styled.div`
       text-align: center;
       text-transform: uppercase;
     }
+
+    .gameplay-area {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
+  }
+
+  .timerContainer {
+    background-color: #42d7f5;
+    padding: 15px 10px;
+    margin-top: 25%;
+    width: 30%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timer {
+    background-color: #000000;
+    color: #ffffff;
+    width: 50%;
+
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 220%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .timerTitle {
+    font-size: 100%;
+    text-align: center;
+    padding-bottom: 10px;
   }
 `)

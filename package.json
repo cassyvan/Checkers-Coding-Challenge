@@ -12,6 +12,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-beautiful-dnd": "^10.0.0yarn -",
+    "react-countdown": "^2.3.2",
     "react-dom": "^16.5.2",
     "react-i18next": "^8.3.7",
     "react-redux": "^5.0.7",
@@ -35,12 +36,12 @@
     "react-testing-library": "^5.2.0"
   },
   "scripts": {
-    "start": "NODE_PATH=src/ react-scripts start",
-    "build": "NODE_PATH=src/ react-scripts build",
-    "test": "NODE_PATH=src/ react-scripts test --env=jsdom",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
     "pretty-quick": "pretty-quick",
     "test:integration": "BROWSER=none jest -c tests/integration/jest.config.js",
-    "build:docz": "NODE_PATH=src/ yarn docz dev"
+    "build:docz": "yarn docz dev"
   },
   "eslintConfig": {
     "extends": "react-app"
